@@ -16,7 +16,7 @@
   --fs-h3: 1.25rem;
   --f2-body: 1rem;
   --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
-  0.125em 0.125em 0.25em rgba(0,0,0, .15);
+          0.125em 0.125em 0.25em rgba(0,0,0, .15);
 }
 
 @media (min-width: 800px) {
@@ -78,7 +78,7 @@ strong {
 h1,
 h2,
 h3 {
-  line-height: 1.1;
+  line-height: 1;
   margin: 0;
 }
 
@@ -114,7 +114,7 @@ h3 {
 .section__subtitle--intro,
 .section__subtitle--about {
   background-color: var(--clr-accent);
-  padding: 0.25em;
+  padding: 0.25em 1em;
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
 }
@@ -129,12 +129,12 @@ nav {
   position: relative;
 }
 
-.section__subtitle--intro {
-  display: inline-block;
-}
-
 .intro__img {
   box-shadow: var(--bs);
+}
+
+.section__subtitle--intro {
+  display: inline-block;
 }
 
 @media (min-width: 600px) {
@@ -155,17 +155,16 @@ nav {
     position: relative;
     z-index: 2;
   }
+  .section__subtitle--intro {
+    align-self: start;
+    grid-column: -1/1;
+    grid-row: 2;
+    text-align: right;
+    position: relative;
+    left: -1.5em;
+    width: calc(100% + 1.5em);
+  }
 }
-.section__subtitle--intro {
-  align-self: start;
-  grid-column: -1/1;
-  grid-row: 2;
-  text-align: right;
-  position: relative;
-  left: -1.5em;
-  width: calc(100% + 1.5em);
-}
-
 /* SERVICES SECTION                                                           */
 .my-services {
   background-color: var(--clr-dark);
