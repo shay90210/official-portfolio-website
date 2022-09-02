@@ -244,4 +244,8 @@ nav {
     position: relative;
     z-index: 2;
   }
+}
+/* MY WORK                                              */
+.my-work {
+  background-color: var(--clr-dark);
 }/*# sourceMappingURL=style.css.map */
