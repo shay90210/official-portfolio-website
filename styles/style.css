@@ -72,6 +72,10 @@ h3 {
   font-weight: var(--fw-reg);
 }
 
+.section__title--intro strong {
+  display: block;
+}
+
 .section__subtitle {
   margin: 0;
   font-size: var(--fs-h3);
