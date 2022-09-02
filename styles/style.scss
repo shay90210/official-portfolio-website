@@ -30,3 +30,24 @@
 }
 
 /*GENERAL STYLES                         */
+body {
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.6;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/*TYPOGRAPHY                              */
+h1,
+h2,
+h3 {
+    line-height: 1.1;
+    margin: 0;
+}
