@@ -12,12 +12,15 @@
 
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #f07810;
+    --clr-accent: #2cc4cb;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
     --f2-body: 1rem;
+
+    --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25), 
+    0.125em 0.125em 0.25em rgba(0,0,0, .15);
 }
 
 @media (min-width:800px) {
@@ -107,6 +110,14 @@ nav {
     position: relative;
 }
 
+.section__subtitle--intro {
+    display: inline-block;
+}
+
+.intro__img {
+    box-shadow: var(--bs);
+}
+
 @media (min-width: 600px) {
     .intro {
         display: grid;
@@ -122,6 +133,8 @@ nav {
     .intro__img {
         grid-area: img;
         min-width: 250px; 
+        position: relative;
+        z-index: 2;
     }
 }
 
@@ -133,4 +146,11 @@ nav {
     position: relative;
     left: -1.5em;
     width: calc(100% + 1.5em);
+}
+
+/* SERVICES SECTION                                                           */
+.my-services {
+    background-color: var(--clr-dark);
+    background-image: url(../img/office-bg.jpg);
+    color: var(--clr-light);
 }
