@@ -39,6 +39,10 @@ body {
     line-height: 1.6;
 }
 
+section {
+    padding: 5em 2em;
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -88,5 +92,45 @@ h3 {
 .section__subtitle--intro,
 .section__subtitle--about {
     background-color: var(--clr-accent);
+    padding: .25em;
     font-family: var(--ff-secondary);
+    margin-bottom: 1em;
+}
+
+/* HEADER SECTION                                          */
+nav {
+    display: none;
+}
+
+/* INTRODUCTION SECTION                                    */
+.intro {
+    position: relative;
+}
+
+@media (min-width: 600px) {
+    .intro {
+        display: grid;
+        width: min-content;
+        margin: 0 auto;
+        grid-column-gap: 1em;
+        grid-template-areas: 
+            "img title"
+            "img subtitle";
+            grid-template-columns: min-content max-content;
+    }
+
+    .intro__img {
+        grid-area: img;
+        min-width: 250px; 
+    }
+}
+
+.section__subtitle--intro {
+    align-self: start;
+    grid-column: -1 / 1;
+    grid-row: 2;
+    text-align: right;
+    position: relative;
+    left: -1.5em;
+    width: calc(100% + 1.5em);
 }
