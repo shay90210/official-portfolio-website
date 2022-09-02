@@ -1,8 +1,9 @@
 /* GLOBAL STYLES                       */
-body {
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
 *, *::before, *::after {
     box-sizing: border-box;
+}
+
+:root {
+    --ff-primary: 'Source Sans Pro', sans-serif;
+    --ff-secondary: 'Space Mono', monospace;
 }
