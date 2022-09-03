@@ -131,8 +131,18 @@ h3 {
 }
 
 /* HEADER SECTION                                          */
-nav {
-    display: none;
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.logo {
+    max-width: 300px;
+}
+
+.nav {
+    position: fixed;
 }
 
 /* INTRODUCTION SECTION                                    */
