@@ -177,6 +177,16 @@ header {
     color: var(--clr-accent);
 }
 
+.nav-toggle {
+    padding: .25em;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 2em;
+    top: 2em;
+}
+
 .hamburger {
     display: block;
     position: relative;
@@ -199,6 +209,9 @@ header {
     left: 0;
     right: 0;
 }
+
+.hamburger::before { top: 6px; }
+.hamburger::after { bottom: 6px; }
 
 /* INTRODUCTION SECTION                                    */
 .intro {
