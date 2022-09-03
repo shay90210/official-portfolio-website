@@ -431,4 +431,17 @@ header {
 
 .social-list__link {
   padding: 0.5em;
+}
+
+/*INDIVIDUAL PORTFOLIO ITEM STYLES */
+.portfolio-item-individual {
+  padding: 0 2em 2em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.portfolio-item-individual p {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }/*# sourceMappingURL=style.css.map */
