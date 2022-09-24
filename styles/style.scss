@@ -67,7 +67,6 @@ strong {
 /* BUTTONS                                                */
 .btn {
     display: inline-block;
-    padding: .5em 2.5em;
     background: var(--clr-accent);
     color: var(--clr-dark);
     text-decoration: none;
@@ -81,14 +80,6 @@ strong {
 
 .btn:hover {
     transform:scale(1.1);
-}
-
-.item-buttons {
-    .btn {
-        display: block;
-        margin: auto;
-        justify-content: center;
-    }
 }
 
 /*TYPOGRAPHY                              */
