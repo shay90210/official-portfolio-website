@@ -83,6 +83,14 @@ strong {
     transform:scale(1.1);
 }
 
+.item-buttons {
+    .btn {
+        display: block;
+        margin: auto;
+        justify-content: center;
+    }
+}
+
 /*TYPOGRAPHY                              */
 h1,
 h2,
@@ -446,21 +454,4 @@ header {
 
 .social-list__link {
     padding: .5em;
-}
-
-/*INDIVIDUAL PORTFOLIO ITEM STYLES */
-.portfolio-item-individual {
-    padding: 0 2em 2em;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.portfolio-item-individual p {
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.portfolio-item-individual h3 {
-    text-align: center;
 }
