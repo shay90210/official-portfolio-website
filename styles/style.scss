@@ -1,4 +1,4 @@
-/* GLOBAL STYLES                       */
+/* GLOBAL STYLES                                                  */
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -32,7 +32,7 @@
     }
 }
 
-/*GENERAL STYLES                         */
+/*GENERAL STYLES                                                  */
 html {
     scroll-behavior: smooth;
 }
@@ -64,7 +64,7 @@ strong {
     outline-offset: 3px;
 }
 
-/* BUTTONS                                                */
+/* BUTTONS                                                        */
 .btn {
     display: inline-block;
     background: var(--clr-accent);
@@ -82,7 +82,7 @@ strong {
     transform:scale(1.1);
 }
 
-/*TYPOGRAPHY                              */
+/*TYPOGRAPHY                                                     */
 h1,
 h2,
 h3 {
@@ -133,7 +133,7 @@ h3 {
     margin-bottom: 2em;
 }
 
-/* HEADER SECTION                                          */
+/* HEADER SECTION                                                   */
 header {
     display: flex;
     justify-content: space-between;
@@ -237,7 +237,7 @@ header {
 .hamburger::before { top: 6px; }
 .hamburger::after { bottom: 6px; }
 
-/* INTRODUCTION SECTION                                    */
+/* INTRODUCTION SECTION                                                     */
 .intro {
     position: relative;
 }
@@ -328,7 +328,7 @@ header {
     }
 }
 
-/* ABOUT ME SECTION                                           */
+/* ABOUT ME SECTION                                                   */
 .about-me {
     max-width: 1000px;
     margin: 0 auto;
@@ -370,7 +370,7 @@ header {
     }
 }
 
-/* MY WORK                                              */
+/* MY WORK                                                          */
 .my-work {
     background-color: var(--clr-dark);
     color: var(--clr-light);
